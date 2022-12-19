@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Prj</string>
+    <string name="txtTitre">FOOD ORDER </string>
+    <string name="txtPlayer1">Joueur 1</string>
+    <string name="txtJouer">Enregistre</string>
+    <string name="txtNom">Nom</string>
+    <string name="txtRetour">Retour</string>
+    <string name="txtSignUp">Sign Up</string>
+    <string name="txtSignIn">Sign In</string>
+    <string name="txtPrenom">Prenom</string>
+    <string name="txtPass">mdp</string>
+    <string name="txtEmail">Email</string>
+    <string name="txtMainRetour">Retour</string>
+    <string name="txtPanier">Panier</string>
+    <string name="txtAfficher">Affiche</string>
+    <string name="txtAchete">Achete</string>
+    <string name="txtAcheter">Achete</string>
+    <string name="txtLanceCommande">Lance commande</string>
+</resources>

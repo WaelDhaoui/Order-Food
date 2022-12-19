@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    tools:context=".vue.SignIn">
+
+    <TextView
+        android:id="@id/txtTitre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/txtTitre"
+        android:textColor="@color/purple"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:id="@+id/txtEmail2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/txtEmail"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+            <EditText
+                android:id="@+id/txtEmailUser2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:autofillHints=""
+                android:hint="@string/txtEmail"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:inputType="text" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/txtPass2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/txtPass"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+            <EditText
+                android:id="@+id/txtPassUser2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:autofillHints=""
+                android:hint="@string/txtPass"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:inputType="text" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnInUser2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_customized_form"
+        android:layout_marginStart="20dp"
+        android:text="@string/txtSignIn"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnRetourUser2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_customized_form"
+        android:layout_marginStart="20dp"
+        android:text="@string/txtRetour"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

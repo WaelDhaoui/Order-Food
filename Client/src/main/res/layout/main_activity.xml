@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:orientation="vertical"
+    tools:context=".vue.MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/txtTitre"
+        android:textColor="@color/purple"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/MainRetour"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/button_customized_form"
+        android:text="@string/txtMainRetour"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnPanier"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/button_customized_form"
+        android:text="@string/txtPanier"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pizza" />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/imageView"
+            android:text="@string/txtPanier"
+            android:textColor="@color/purple_500"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-67dp"
+            android:layout_toRightOf="@id/imageView"
+            android:text="@string/txtPanier"
+            android:textColor="@color/purple"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnAff1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/Price"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/imageView"
+            android:text="@string/txtAchete"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src ="@drawable/sandwich1" />
+        <TextView
+            android:id="@+id/Name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/imageView2"
+            android:text="@string/txtPanier"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_500"/>
+
+        <TextView
+            android:id="@+id/Price2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-67dp"
+            android:layout_toRightOf="@id/imageView2"
+            android:text="@string/txtPanier"
+            android:textSize="20sp"
+            android:textColor="@color/purple"/>
+        <Button
+            android:id="@+id/btnAff2"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/imageView2"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/Price2"
+            android:text="@string/txtAchete"
+            android:textSize="15sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src ="@drawable/tacos" />
+        <TextView
+            android:id="@+id/Name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/imageView3"
+            android:text="@string/txtPanier"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_500"/>
+
+        <TextView
+            android:id="@+id/Price3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-67dp"
+            android:layout_toRightOf="@id/imageView3"
+            android:text="@string/txtPanier"
+            android:textSize="20sp"
+            android:textColor="@color/purple"/>
+        <Button
+            android:id="@+id/btnAff3"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/imageView3"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/Price3"
+            android:text="@string/txtAchete"
+            android:textSize="15sp"/>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
